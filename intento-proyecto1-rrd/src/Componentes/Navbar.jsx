@@ -4,10 +4,11 @@ function Navbar() {
     const valor = 25;
     return(
         <nav>
-            <Link to="/">Saludo</Link>
-            <Link to="/hola">Hola</Link>
-            <Link to="/mensaje">Mensaje</Link>
-            <Link to={`/parametros/${valor}`}></Link>
+            <Link to="/">Sallllllludo</Link>
+            <Link to="/hola">Hollllllla</Link>
+            <Link to="/mensaje">Menssssssaje</Link>
+            <Link to={`/parametros/${valor}`}>PARAMETROS</Link>
+            <Link to="/articulo">--REGISTRAR_ARTICULOS</Link>
         </nav>
     )
 }
